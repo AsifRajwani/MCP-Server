@@ -1,0 +1,8 @@
+date,region,product,revenue
+2025-01-01,North,Widget,1200
+2025-01-02,South,Gadget,800
+2025-01-02,North,Gizmo,500
+2025-01-03,West,Widget,2000
+2025-01-04,East,Widget,700
+2025-01-04,South,Gizmo,650
+2025-01-05,North,Gadget,1300

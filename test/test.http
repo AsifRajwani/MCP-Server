@@ -1,0 +1,3 @@
+GET http://localhost:3001/summary
+
+GET http://localhost:3001/top-products
