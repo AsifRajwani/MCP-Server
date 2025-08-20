@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc -w",
+    "build": "tsc -w",
     "start": "node dist/mcp-server.js",
     "start:dev": "nodemon dist/mcp-server.js"
   },
