@@ -9,8 +9,7 @@ app.use(bodyParser.json());
 
 const PORT = 3001;
 const DATA_FILE = path.join(path.dirname(__dirname)+"/data", "sales.csv");
-console.log (DATA_FILE);
-console.log(__dirname);
+console.log (`DataFile: ${DATA_FILE}`);
 
 interface Sale {
   date: string;
