@@ -1,8 +1,171 @@
 date,region,product,revenue
-2025-01-01,North,Widget,1200
-2025-01-02,South,Gadget,800
-2025-01-02,North,Gizmo,500
-2025-01-03,West,Widget,2000
-2025-01-04,East,Widget,700
-2025-01-04,South,Gizmo,650
-2025-01-05,North,Gadget,1300
+2024-01-05,North,UltraBook Pro 15,2499
+2024-01-08,West,Wireless Noise-Canceling Headphones,299
+2024-01-12,South,Smart Fitness Tracker,149
+2024-01-15,East,4K Webcam,189
+2024-01-18,North,Gaming Mechanical Keyboard,159
+2024-01-22,West,UltraBook Pro 15,2499
+2024-01-25,South,Wireless Mouse,79
+2024-01-28,North,USB-C Docking Station,249
+2024-02-02,East,Smart Fitness Tracker,149
+2024-02-05,West,Gaming Mechanical Keyboard,159
+2024-02-08,South,4K Webcam,189
+2024-02-12,North,Wireless Noise-Canceling Headphones,299
+2024-02-15,East,UltraBook Pro 15,2499
+2024-02-18,West,Smart Home Hub,199
+2024-02-22,South,Portable SSD 1TB,179
+2024-02-25,North,Wireless Charging Pad,49
+2024-02-28,East,Gaming Mechanical Keyboard,159
+2024-03-05,West,Smart Fitness Tracker,149
+2024-03-08,South,UltraBook Pro 15,2499
+2024-03-12,North,4K Webcam,189
+2024-03-15,East,Wireless Mouse,79
+2024-03-18,West,USB-C Docking Station,249
+2024-03-22,South,Wireless Noise-Canceling Headphones,299
+2024-03-25,North,Smart Home Hub,199
+2024-03-28,East,Portable SSD 1TB,179
+2024-04-02,West,UltraBook Pro 15,2499
+2024-04-05,South,Gaming Mechanical Keyboard,159
+2024-04-08,North,Smart Fitness Tracker,149
+2024-04-12,East,Wireless Charging Pad,49
+2024-04-15,West,4K Webcam,189
+2024-04-18,South,USB-C Docking Station,249
+2024-04-22,North,Wireless Mouse,79
+2024-04-25,East,Smart Home Hub,199
+2024-04-28,West,Wireless Noise-Canceling Headphones,299
+2024-05-02,South,UltraBook Pro 15,2499
+2024-05-05,North,Portable SSD 1TB,179
+2024-05-08,East,Gaming Mechanical Keyboard,159
+2024-05-12,West,Smart Fitness Tracker,149
+2024-05-15,South,Wireless Charging Pad,49
+2024-05-18,North,4K Webcam,189
+2024-05-22,East,USB-C Docking Station,249
+2024-05-25,West,Smart Home Hub,199
+2024-05-28,South,Wireless Mouse,79
+2024-06-02,North,UltraBook Pro 15,2499
+2024-06-05,East,Wireless Noise-Canceling Headphones,299
+2024-06-08,West,Smart Fitness Tracker,149
+2024-06-12,South,Gaming Mechanical Keyboard,159
+2024-06-15,North,Portable SSD 1TB,179
+2024-06-18,East,4K Webcam,189
+2024-06-22,West,Wireless Charging Pad,49
+2024-06-25,South,USB-C Docking Station,249
+2024-06-28,North,Smart Home Hub,199
+2024-07-02,East,UltraBook Pro 15,2499
+2024-07-05,West,Wireless Mouse,79
+2024-07-08,South,Smart Fitness Tracker,149
+2024-07-12,North,Gaming Mechanical Keyboard,159
+2024-07-15,East,Wireless Noise-Canceling Headphones,299
+2024-07-18,West,4K Webcam,189
+2024-07-22,South,Portable SSD 1TB,179
+2024-07-25,North,USB-C Docking Station,249
+2024-07-28,East,Smart Home Hub,199
+2024-08-02,West,UltraBook Pro 15,2499
+2024-08-05,South,Wireless Charging Pad,49
+2024-08-08,North,Smart Fitness Tracker,149
+2024-08-12,East,Gaming Mechanical Keyboard,159
+2024-08-15,West,Wireless Mouse,79
+2024-08-18,South,4K Webcam,189
+2024-08-22,North,Wireless Noise-Canceling Headphones,299
+2024-08-25,East,Portable SSD 1TB,179
+2024-08-28,West,Smart Home Hub,199
+2024-09-02,South,UltraBook Pro 15,2499
+2024-09-05,North,USB-C Docking Station,249
+2024-09-08,East,Smart Fitness Tracker,149
+2024-09-12,West,Gaming Mechanical Keyboard,159
+2024-09-15,South,Wireless Charging Pad,49
+2024-09-18,North,4K Webcam,189
+2024-09-22,East,Wireless Mouse,79
+2024-09-25,West,Wireless Noise-Canceling Headphones,299
+2024-09-28,South,Portable SSD 1TB,179
+2024-10-02,North,UltraBook Pro 15,2499
+2024-10-05,East,Smart Home Hub,199
+2024-10-08,West,Smart Fitness Tracker,149
+2024-10-12,South,Gaming Mechanical Keyboard,159
+2024-10-15,North,4K Webcam,189
+2024-10-18,East,USB-C Docking Station,249
+2024-10-22,West,Wireless Charging Pad,49
+2024-10-25,South,Wireless Mouse,79
+2024-10-28,North,Wireless Noise-Canceling Headphones,299
+2024-11-02,East,UltraBook Pro 15,2499
+2024-11-05,West,Portable SSD 1TB,179
+2024-11-08,South,Smart Fitness Tracker,149
+2024-11-12,North,Gaming Mechanical Keyboard,159
+2024-11-15,East,Smart Home Hub,199
+2024-11-18,West,4K Webcam,189
+2024-11-22,South,USB-C Docking Station,249
+2024-11-25,North,Wireless Charging Pad,49
+2024-11-28,East,Wireless Mouse,79
+2024-12-02,West,UltraBook Pro 15,2499
+2024-12-05,South,Wireless Noise-Canceling Headphones,299
+2024-12-08,North,Smart Fitness Tracker,149
+2024-12-12,East,Gaming Mechanical Keyboard,159
+2024-12-15,West,Portable SSD 1TB,179
+2024-12-18,South,4K Webcam,189
+2024-12-22,North,Smart Home Hub,199
+2024-12-25,East,USB-C Docking Station,249
+2024-12-28,West,Wireless Charging Pad,49
+2025-01-02,South,UltraBook Pro 15,2499
+2025-01-05,North,Wireless Mouse,79
+2025-01-08,East,Smart Fitness Tracker,149
+2025-01-12,West,Gaming Mechanical Keyboard,159
+2025-01-15,South,Wireless Noise-Canceling Headphones,299
+2025-01-18,North,4K Webcam,189
+2025-01-22,East,Portable SSD 1TB,179
+2025-01-25,West,Smart Home Hub,199
+2025-01-28,South,USB-C Docking Station,249
+2025-02-02,North,UltraBook Pro 15,2499
+2025-02-05,East,Wireless Charging Pad,49
+2025-02-08,West,Smart Fitness Tracker,149
+2025-02-12,South,Gaming Mechanical Keyboard,159
+2025-02-15,North,Wireless Mouse,79
+2025-02-18,East,4K Webcam,189
+2025-02-22,West,Wireless Noise-Canceling Headphones,299
+2025-02-25,South,Portable SSD 1TB,179
+2025-02-28,North,Smart Home Hub,199
+2025-03-05,East,UltraBook Pro 15,2499
+2025-03-08,West,USB-C Docking Station,249
+2025-03-12,South,Smart Fitness Tracker,149
+2025-03-15,North,Gaming Mechanical Keyboard,159
+2025-03-18,East,Wireless Charging Pad,49
+2025-03-22,West,4K Webcam,189
+2025-03-25,South,Wireless Mouse,79
+2025-03-28,North,Wireless Noise-Canceling Headphones,299
+2025-04-02,East,UltraBook Pro 15,2499
+2025-04-05,West,Portable SSD 1TB,179
+2025-04-08,South,Smart Home Hub,199
+2025-04-12,North,Smart Fitness Tracker,149
+2025-04-15,East,Gaming Mechanical Keyboard,159
+2025-04-18,West,4K Webcam,189
+2025-04-22,South,USB-C Docking Station,249
+2025-04-25,North,Wireless Charging Pad,49
+2025-04-28,East,Wireless Mouse,79
+2025-05-02,West,UltraBook Pro 15,2499
+2025-05-05,South,Wireless Noise-Canceling Headphones,299
+2025-05-08,North,Smart Fitness Tracker,149
+2025-05-12,East,Gaming Mechanical Keyboard,159
+2025-05-15,West,Portable SSD 1TB,179
+2025-05-18,South,4K Webcam,189
+2025-05-22,North,Smart Home Hub,199
+2025-05-25,East,USB-C Docking Station,249
+2025-05-28,West,Wireless Charging Pad,49
+2025-06-02,South,UltraBook Pro 15,2499
+2025-06-05,North,Wireless Mouse,79
+2025-06-08,East,Smart Fitness Tracker,149
+2025-06-12,West,Gaming Mechanical Keyboard,159
+2025-06-15,South,Wireless Noise-Canceling Headphones,299
+2025-06-18,North,4K Webcam,189
+2025-06-22,East,Portable SSD 1TB,179
+2025-06-25,West,Smart Home Hub,199
+2025-06-28,South,USB-C Docking Station,249
+2025-07-02,North,UltraBook Pro 15,2499
+2025-07-05,East,Wireless Charging Pad,49
+2025-07-08,West,Smart Fitness Tracker,149
+2025-07-12,South,Gaming Mechanical Keyboard,159
+2025-07-15,North,Wireless Mouse,79
+2025-07-18,East,4K Webcam,189
+2025-07-22,West,Wireless Noise-Canceling Headphones,299
+2025-07-25,South,Portable SSD 1TB,179
+2025-07-28,North,Smart Home Hub,199
+2025-08-02,East,UltraBook Pro 15,2499
+2025-08-05,West,USB-C Docking Station,249
