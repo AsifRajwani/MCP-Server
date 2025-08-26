@@ -7,7 +7,7 @@ import csvParser from "csv-parser";
 
 import { z } from "zod";
 
-const DATA_FILE = path.join(path.dirname(__dirname) + "/data", "sales.csv");
+const DATA_FILE = path.join(path.dirname(__dirname), "data", "sales.csv");
 
 interface Sale {
   date: string;
@@ -43,7 +43,10 @@ async function start() {
   // 1) get_total_sales (optional region filter)
   server.tool(
     "get_total_sales",
-    { region: z.string().optional() }, // Zod schema shape
+    {
+      description: "Gets the total sales revenue across all regions or a specific region.",
+      region: z.string().optional()
+    },
     async ({ region }) => {
       console.error(`DEBUG: Destructured region parameter:`, region);
 
@@ -73,7 +76,9 @@ async function start() {
   // get_sales_by_all_regions (no input parameters)
   server.tool(
     "get_sales_by_all_regions",
-    {}, // no input expected
+    {
+      description: "Gets the total sales revenue broken down by each region.",
+    },
     async () => {
       const data = await readSales();
       const byRegion: Record<string, number> = {};
@@ -105,7 +110,10 @@ async function start() {
   // 2) get_top_products (limit)
   server.tool(
     "get_top_products",
-    { limit: z.number().min(1).max(50).optional() },
+    {
+      description: "Identifies and returns a list of the top-performing products by revenue, with an optional limit.",
+      limit: z.number().min(1).max(50).optional()
+    },
     async (args) => {
       const limit = typeof args.limit === "number" ? args.limit : 5;
 
@@ -133,6 +141,9 @@ async function start() {
   server.resource(
     "sales_summary",
     "sales://summary/regions",
+    {
+      description: "A summary of total sales revenue broken down by each region."
+    },
     async () => {
       const data = await readSales();
       const byRegion: Record<string, number> = {};
@@ -154,6 +165,9 @@ async function start() {
   server.resource(
     "top_products",
     "sales://top/products",
+    {
+      description: "A list of the top 5 products by revenue, sorted from highest to lowest."
+    },
     async () => {
       const data = await readSales();
       const byProduct: Record<string, number> = {};
