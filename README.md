@@ -51,3 +51,7 @@ To properly test your code, use the **MCP Inspector**. It will start the server 
   ```
 
 The inspector will launch a web UI in your browser, allowing you to interact with and debug the server.
+
+## Data
+
+Data used is stored in the csv file in **data/sales.csv**
