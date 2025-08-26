@@ -54,4 +54,4 @@ The inspector will launch a web UI in your browser, allowing you to interact wit
 
 ## Data
 
-Data used is stored in the csv file in **data/sales.csv**
+Data used is stored in the csv file **data/sales.csv**
