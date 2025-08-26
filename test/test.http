@@ -1,5 +1,0 @@
-GET http://localhost:3001/summary
-
-GET http://localhost:3001/top-products
-
-GET http://localhost:3001/get_total_sales
