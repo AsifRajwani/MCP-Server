@@ -1,5 +1,9 @@
 # How to Run and Test the MCP Server
 
+# Requirements
+
+This project requires **Node.js version 22.15.x or above** (download from https://nodejs.org/).
+
 ## Setup and Installation
 
 1.  **Clone the repository:** Clone the GitHub repository to your local machine using the command:
