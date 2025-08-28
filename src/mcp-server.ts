@@ -126,6 +126,62 @@ async function start() {
     }
   );
 
+  // 3) get_top_products_by_region (region, limit)
+  server.tool(
+    "get_top_products_by_region",
+    {
+      region: z.string().optional(),
+      limit: z.number().min(1).max(50).optional(),
+    },
+    async ({ region, limit }) => {
+      const lim = typeof limit === "number" ? limit : 5;
+      const data = await readSales();
+      if (region) {
+        // Return top products for the specified region
+        const filtered = data.filter((s) => s.region === region);
+        const byProduct: Record<string, number> = {};
+        for (const s of filtered) {
+          byProduct[s.product] = (byProduct[s.product] || 0) + s.revenue;
+        }
+        const top = Object.entries(byProduct)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, lim)
+          .map(([product, revenue]) => ({ product, revenue }));
+        return {
+          content: [
+            {
+              type: "text",
+              text: JSON.stringify({ region, top }, null, 2),
+            },
+          ],
+        };
+      } else {
+        // Return top product(s) for each region
+        const regionMap: Record<string, Record<string, number>> = {};
+        for (const s of data) {
+          if (!regionMap[s.region]) regionMap[s.region] = {};
+          regionMap[s.region][s.product] = (regionMap[s.region][s.product] || 0) + s.revenue;
+        }
+        const result: Record<string, Array<{ product: string; revenue: number }>> = {};
+        for (const reg in regionMap) {
+          const top = Object.entries(regionMap[reg])
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, lim)
+            .map(([product, revenue]) => ({ product, revenue }));
+          result[reg] = top;
+        }
+        return {
+          content: [
+            {
+              type: "text",
+              text: JSON.stringify({ topByRegion: result }, null, 2),
+            },
+          ],
+        };
+      }
+    }
+  );
+
   // -----------------------
   // RESOURCES (readable data)
   // -----------------------
