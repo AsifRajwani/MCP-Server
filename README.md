@@ -13,7 +13,8 @@ This repository is part of a larger demo showcasing how to combine:
 Together, these components demonstrate how an AI Agent can orchestrate across multiple sources to generate deep insights — for example, identifying new product bundles or designing targeted promotions.
 
 👉 This repo is one of several components that make up the full demo.
-👉 The attached PDF Guide details all the setup required to run all components locally on your personal computer.
+
+👉 The [PDF Guide](https://github.com/AsifRajwani/MCP-Server/blob/main/AI%20Agent%20MCP%20Demo.pdf) details all the setup required to run all components locally on your personal computer.
 
 # How to Run and Test the MCP Server
 
